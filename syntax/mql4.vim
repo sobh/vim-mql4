@@ -169,8 +169,7 @@ syn match       mql4Operator       "\(&&\|||\|==\|!=\|<\|>\|<=\|>=\)"
 
 syn match       mql4Define         "#import"
 syn match       mql4Define         "#define"
-syn match       mql4Define         "#property\s\+\(copyright\|link\|stacksize\|library\|indicator_chart_window\|indicator_separate_window\|indicator_buffers\|indicator_minimum\|indicator_maximum\|indicator_color[1-8]\|indicator_width[1-8]\|indicator_style[1-8]\|indicator_level[1-8]\|indicator_levelcolor\|indicator_levelwidth\|indicator_levelstyle\|show_confirm\|show_inputs\)\(\s\+\|$\)"
-
+syn match       mql4Define         "#property\s\+\(copyright\|description\|icon\|indicator_buffers\|indicator_chart_window\|indicator_color[1-8]\|indicator_height\|indicator_label[1-8]\|indicator_level[1-8]\|indicator_levelcolor\|indicator_levelstyle\|indicator_levelwidth\|indicator_maximum\|indicator_minimum\|indicator_separate_window\|indicator_style[1-8]\|indicator_type[1-8]\|indicator_width[1-8]\|library\|link\|script_show_confirm\|script_show_inputs\|stacksize\|strict\|tester_file\|tester_indicator\|tester_library\|version\)\(\s\+\|$\)" 
 syn keyword	mql4Type		bool color datetime double int string void
 
 syn keyword	mql4Structure	extern static
