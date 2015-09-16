@@ -164,15 +164,16 @@ endif
 syntax match	mql4CommentError	display "\*/"
 syntax match	mql4CommentStartError display "/\*"me=e-1 contained
 
-syn keyword	mql4Operator	false true
+syn keyword	mql4Operator	   false true
 syn match       mql4Operator       "\(&&\|||\|==\|!=\|<\|>\|<=\|>=\)"
 
 syn match       mql4Define         "#import"
 syn match       mql4Define         "#define"
 syn match       mql4Define         "#property\s\+\(copyright\|description\|icon\|indicator_buffers\|indicator_chart_window\|indicator_color[1-8]\|indicator_height\|indicator_label[1-8]\|indicator_level[1-8]\|indicator_levelcolor\|indicator_levelstyle\|indicator_levelwidth\|indicator_maximum\|indicator_minimum\|indicator_separate_window\|indicator_style[1-8]\|indicator_type[1-8]\|indicator_width[1-8]\|library\|link\|script_show_confirm\|script_show_inputs\|stacksize\|strict\|tester_file\|tester_indicator\|tester_library\|version\)\(\s\+\|$\)" 
-syn keyword	mql4Type		bool color datetime double int string void
+syn keyword	mql4Type           char uchar short ushort int uint long ulong
+syn keyword	mql4Type           void bool color datetime float double string
 
-syn keyword	mql4Structure	extern static input
+syn keyword	mql4Structure	   extern static input const
 
 syn keyword     mql4Constant       MODE_OPEN MODE_LOW MODE_HIGH MODE_CLOSE MODE_VOLUME MODE_TIME
 syn keyword     mql4Constant       PERIOD_M1 PERIOD_M5 PERIOD_M15 PERIOD_M30 PERIOD_H1 PERIOD_H4 PERIOD_D1 PERIOD_W1 PERIOD_MN1
