@@ -176,7 +176,7 @@ syn keyword	mql4Type           void bool color datetime float double string
 syn keyword	mql4Structure	   extern static input const
 
 syn keyword     mql4Constant       MODE_OPEN MODE_LOW MODE_HIGH MODE_CLOSE MODE_VOLUME MODE_TIME
-syn keyword     mql4Constant       PERIOD_M1 PERIOD_M5 PERIOD_M15 PERIOD_M30 PERIOD_H1 PERIOD_H4 PERIOD_D1 PERIOD_W1 PERIOD_MN1
+syn keyword     mql4Constant       PERIOD_CURRENT PERIOD_M1 PERIOD_M5 PERIOD_M15 PERIOD_M30 PERIOD_H1 PERIOD_H4 PERIOD_D1 PERIOD_W1 PERIOD_MN1
 syn keyword     mql4Constant       OP_BUY OP_SELL OP_BUYLIMIT OP_SELLLIMIT OP_BUYSTOP OP_SELLSTOP
 syn keyword     mql4Constant       SELECT_BY_POS SELECT_BY_TICKET MODE_TRADES MODE_HISTORY
 syn keyword     mql4Constant       PRICE_CLOSE PRICE_OPEN PRICE_HIGH PRICE_LOW PRICE_MEDIAN PRICE_TYPICAL PRICE_WEIGHTED
